@@ -1,0 +1,16 @@
+{
+  "name": "ovvoc-test-pro-41",
+  "version": "1.0.0",
+  "description": "React 18 SPA with React Router 5 — multi-package update test (React 19 + Router 6)",
+  "main": "src/App.js",
+  "scripts": {
+    "test": "node test/app.test.js"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "5.3.4"
+  },
+  "keywords": [],
+  "license": "MIT"
+}
