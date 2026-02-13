@@ -31,7 +31,7 @@ function UserProfileInner(props, ref) {
 }
 
 // React.forwardRef pattern
-const UserProfile = React.forwardRef(UserProfileInner);
+const UserProfile = /* TODO: forwardRef is no longer needed in React 19 - ref is a regular prop */UserProfileInner);
 
 // defaultProps on forwardRef component
 UserProfile.defaultProps = {
